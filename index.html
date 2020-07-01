@@ -96,7 +96,7 @@
             }
         }
 
-        var GeoJSON1Abril // define a variable to make the geojson layer accessible for the funtion to use
+        var GeoJSON1Abril
 
         function resetHighlight(e) {
             GeoJSON1Abril.resetStyle(e.target);
@@ -125,7 +125,7 @@
               var div = L.DomUtil.create('div', 'legend'),
                   grades = [0, 1, 10, 30];
 
-              div.innerHTML = '<b>Casos de Covid-19<br>por 10.000 habitantes<br></b>'; // The legend title, in this case it's Population Density 2011
+              div.innerHTML = '<b>Casos de Covid-19<br>por 10.000 habitantes<br></b>';
 
 
               for (var i = 0; i < grades.length; i++) {
